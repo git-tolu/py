@@ -181,3 +181,53 @@ import random
 
 
 # for loops
+# excercise
+# prices = [10, 20, 30]
+# total = 0
+# for price in prices:
+#     total += price
+# print(f"Total price: {total}")
+
+# nested loops
+# for x in range(4):
+#     for y in range(3):
+#      print(x, y)
+
+# loop exersice
+# numbers = [7, 2, 7, 2, 2]
+# for noOfX in numbers:
+#     xes = ""
+#     for item in range(noOfX):
+#         xes += "x"
+#     print(xes)
+
+# list
+# exercise
+# lgNumbers = [10, 20, 30]
+# print(max(lgNumbers))
+# 2 dimension list
+# matrix = [
+#     [1, 2, 3],
+#     [4, 5, 6],
+#     [7, 8, 9]
+# ]
+# matrix[0][1] = 20
+# print(matrix[0][1])
+# print(matrix)
+# looping 2 dimensional list
+# for row in matrix:
+#     for item in row:
+#      print(item)
+# exercise 
+# number = [1, 3, 3, 5, 6, 4]
+
+# new_list = list(set(number)) 
+# print(new_list)
+
+thisdict =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+for x in thisdict:
+  print(thisdict[x])
