@@ -1,5 +1,6 @@
 import math
 import random
+import mymodule 
 
 # print("hello, puthon")
 # age = 11
@@ -218,16 +219,108 @@ import random
 # for row in matrix:
 #     for item in row:
 #      print(item)
-# exercise 
+# exercise
 # number = [1, 3, 3, 5, 6, 4]
 
-# new_list = list(set(number)) 
+# new_list = list(set(number))
 # print(new_list)
 
-thisdict =	{
-  "brand": "Ford",
-  "model": "Mustang",
-  "year": 1964
-}
-for x in thisdict:
-  print(thisdict[x])
+# thisdict =	{
+#   "brand": "Ford",
+#   "model": "Mustang",
+#   "year": 1964
+# }
+# for x in thisdict:
+#   print(thisdict[x])
+
+# functions
+# def fullname(fname):
+#     print("your name is " + fname)
+# fullname("tolu")
+
+# def multipleArgs(*args):
+#     print(args[:])
+# multipleArgs("yo", "wassup", "nigga")
+
+# def keyarg(name, lastname):
+#  print("welcome " + name + " "+ lastname)
+# keyarg(lastname="tolu", name="new_orld")
+# def food(args):
+#  for x in fruits:
+#    print(x)
+# fruits = ['apple', 'banana', 'cherry']
+# food(fruits)
+
+# try and except
+# try:
+#     x = int(input("age: "))
+#     income = 2000
+#     x = income / x
+#     print(x)
+# except ZeroDivisionError:
+#   print('Age cannot be zero')
+# except ValueError:
+#   print('Value must be an integer')
+
+# class
+# class Point:
+#     def move(self):
+#      print("move")
+
+#     def draw(self):
+#      print("draw")
+
+
+# point1 = Point()
+# point1.draw()
+# point1.move()
+# point1.x = 10
+# point1.y = 15
+# print(point1.x)
+
+
+# class Parrot:
+#     # instance attribute
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
+
+
+# # instantiate the Parrot class
+# blu = Parrot("Blu", 10)
+# woo = Parrot("woo", 15)
+
+# print(blu.name)
+# print(blu.age)
+
+
+# class Person:
+#     def __init__(self, name):
+#         self.name = name
+
+#     def talk(self):
+#         print("Hello, my name is", self.name)
+
+
+# p = Person("hera")
+# p.talk()
+
+# class Child(Person):
+#     def __init__(self, name):
+#         Person.__init__(self, name)
+# p = Person('bod')
+# p.talk()
+
+
+# module
+mymodule.greeting("tolu")
+
+import platform
+
+x = platform.system()
+print(x)
+
+import platform
+
+x = dir(platform)
+print(x)
