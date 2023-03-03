@@ -313,14 +313,35 @@ import mymodule
 
 
 # module
-mymodule.greeting("tolu")
+# mymodule.greeting("tolu")
 
-import platform
+# import platform
 
-x = platform.system()
-print(x)
+# x = platform.system()
+# print(x)
 
-import platform
+# import platform
 
-x = dir(platform)
-print(x)
+# x = dir(platform)
+# print(x)
+
+import random
+ 
+diceValues = [1,2,3,4,5,6] 
+diceValues2 = [1,2,3,4,5,6] 
+
+roll = (random.choice(diceValues) , random.choice(diceValues2))
+print(roll)
+
+# using class
+
+class Dice:
+    def roll(self):
+        diceValues = [1,2,3,4,5,6] 
+        diceValues2 = [1,2,3,4,5,6] 
+        roll = (random.choice(diceValues) , random.choice(diceValues2))
+        print(roll)
+p = Dice()
+p.roll()
+# The previous 2 lines can also be written as
+# Person('Swaroop').say_hi()
